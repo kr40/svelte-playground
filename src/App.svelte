@@ -1,5 +1,8 @@
 <script>
 	let name = "";
+	let count = 0;
+	const add = () => count++;
+	const subs = () => count--;
 </script>
 
 <main>
@@ -7,10 +10,24 @@
 		<label class="lead text-primary" for="name">Enter your name: </label>
 		<input bind:value={name} placeholder="Your name" id="name" type="text" />
 	</div>
-	<h1>Hello {name}!</h1>
+	<h1>Hello {name} !</h1>
+	<button class="btn" on:click={add}>Add</button>
+	<button class="btn" on:click={subs}>Subtract</button>
+	<button class="btn" on:click={() => (count = 0)}>Reset</button>
 </main>
+<div class="container">
+	<p>This is current count: {count}</p>
+</div>
 
 <style>
+	.container {
+		display: grid;
+		place-items: center;
+		padding: 1rem;
+		border: #ccc 1px dotted;
+		margin: auto;
+	}
+
 	.text-primary {
 		color: #ff3e00;
 	}
