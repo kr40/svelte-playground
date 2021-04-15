@@ -5,7 +5,7 @@
 <main>
 	<div class="container">
 		<label class="lead text-primary" for="name">Enter your name: </label>
-		<input id="name" type="text" bind:value={name} />
+		<input placeholder="Your name" id="name" type="text" bind:value={name} />
 	</div>
 	<h1>Hello {name}!</h1>
 </main>
