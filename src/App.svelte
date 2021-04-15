@@ -8,13 +8,7 @@
 <main>
 	<div class="container">
 		<label class="lead text-primary" for="name">Enter your name: </label>
-		<input
-			class="text-secondary"
-			bind:value={name}
-			placeholder="Your name"
-			id="name"
-			type="text"
-		/>
+		<input class="text-secondary" bind:value={name} placeholder="Your name" id="name" type="text" />
 	</div>
 	<h1>Hello {name} !</h1>
 	<button class="btn" on:click={add}>Add</button>
