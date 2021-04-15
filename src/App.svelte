@@ -31,7 +31,6 @@
 	.text-primary {
 		color: #ff3e00;
 		padding: 1em;
-		color: #ff3e00;
 		text-transform: uppercase;
 		font-size: 1.5em;
 		font-weight: 100;
