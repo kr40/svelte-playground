@@ -7,5 +7,3 @@ Comes with a `global.css` file. The `global.css` uses `normalize.css` as a base 
 Link to the `global.css` gist [here](https://gist.github.com/kr40/4d1f60f8005f8ce733b07d6e71233578)
 
 ## This is an ever changing project, feel free to us this as a [template](https://github.com/kr40/svelte-playground/generate).
-
-
