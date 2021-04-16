@@ -302,7 +302,7 @@ img {
 .badge-primary,
 .alert-primary {
 	background: var(--primary-color);
-	color: #fff;
+	color: #888;
 }
 
 .btn-light,
@@ -318,7 +318,7 @@ img {
 .badge-dark,
 .alert-dark {
 	background: var(--dark-color);
-	color: #fff;
+	color: #888;
 }
 
 .btn-danger,
@@ -326,7 +326,7 @@ img {
 .badge-danger,
 .alert-danger {
 	background: var(--danger-color);
-	color: #fff;
+	color: #888;
 }
 
 .btn-success,
@@ -334,14 +334,14 @@ img {
 .badge-success,
 .alert-success {
 	background: var(--success-color);
-	color: #fff;
+	color: #888;
 }
 
 .btn-white,
 .bg-white,
 .badge-white,
 .alert-white {
-	background: #fff;
+	background: #888;
 	color: #333;
 	border: #ccc solid 1px;
 }
@@ -535,7 +535,7 @@ table th {
 }
 
 .navbar a {
-	color: #fff;
+	color: #888;
 	padding: 0.45rem;
 	margin: 0 0.25rem;
 }
