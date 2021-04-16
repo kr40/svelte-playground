@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-	color: #666;
+	color: var(--primary-color);
 }
 
 abbr[title] {
@@ -386,7 +386,7 @@ select {
 .form-text {
 	display: block;
 	margin-top: 0.3rem;
-	color: #888;
+	color: var(--dark-color);
 }
 
 input[type="text"],
@@ -535,13 +535,13 @@ table th {
 }
 
 .navbar a {
-	color: #888;
+	color: var(--dark-color);
 	padding: 0.45rem;
 	margin: 0 0.25rem;
 }
 
 .navbar a:hover {
-	color: var(--light-color);
+	color: var(--primary-color);
 }
 
 .navbar .welcome span {
