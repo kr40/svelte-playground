@@ -1,5 +1,5 @@
 <script>
-	let name = "";
+	let name = '';
 	let count = 0;
 	const add = () => count++;
 	const subs = () => count--;
