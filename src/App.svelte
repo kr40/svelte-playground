@@ -25,7 +25,6 @@
 		place-items: center;
 		padding: 1rem;
 		border: #ccc 1px dotted;
-		margin: auto;
 	}
 
 	.text-primary {
@@ -39,7 +38,7 @@
 	.text-secondary {
 		font-size: 1em;
 		font-weight: 100;
-		font-family: Roboto;
+		font-family: Overpass;
 	}
 
 	main {
