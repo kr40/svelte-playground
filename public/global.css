@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass');
 
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
 /* Global Styles */
 :root {
 	--primary-color: #4267b2;
-	--dark-color: #333333;
+	--dark-color: #333;
 	--light-color: #f4f4f4;
 	--danger-color: #dc3545;
 	--success-color: #28a745;
@@ -45,7 +50,7 @@ hr {
 }
 
 pre {
-	font-family: monospace, monospace; /* 1 */
+	font-family: monospace; /* 1 */
 	font-size: 1em; /* 2 */
 }
 
@@ -73,7 +78,7 @@ strong {
 code,
 kbd,
 samp {
-	font-family: monospace, monospace; /* 1 */
+	font-family: monospace; /* 1 */
 	font-size: 1em; /* 2 */
 }
 
@@ -114,7 +119,7 @@ img {
 	padding: 0 2rem;
 }
 
-/* Text Styles*/
+/* Text Styles */
 .x-large {
 	font-size: 4rem;
 	line-height: 1.2;
@@ -142,10 +147,6 @@ img {
 
 .text-dark {
 	color: var(--dark-color);
-}
-
-.text-center {
-	text-align: center;
 }
 
 .text-right {
@@ -464,16 +465,8 @@ textarea {
 
 [type='search']::-webkit-search-decoration {
 	-webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-	-webkit-appearance: button; /* 1 */
-	font: inherit; /* 2 */
-}
-
-[type='search'] {
 	-webkit-appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
+	outline-offset: -2px;
 }
 
 details {

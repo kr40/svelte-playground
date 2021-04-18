@@ -38,7 +38,7 @@
 	.text-secondary {
 		font-size: 1em;
 		font-weight: 100;
-		font-family: Overpass;
+		font-family: Overpass, monospace;
 	}
 
 	main {
