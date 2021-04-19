@@ -1,9 +1,17 @@
 # Svelte Playground
 
-A simple app I made to mess around with svelte in [gitpod.io](https://gitpod.io/) or [codesandbox.io](https://codesandbox.io/).
+This is a Svelte Playground to mess around in or to start a new project. It comes with `normalize.css`, `bulma.css`, `font-awesome 5` & `stylelint`.
 
-Comes with a `global.css` file. The `global.css` uses `normalize.css` as a base and adds some basic styles and classes. Helps me to reuse this as a **global** stylesheet in multiple projects.
+**Assumes `prettier` is already configured.**
 
-Link to the `global.css` [here](https://kr40.github.io/global-css/).
+## Usage
 
-## This is an ever changing project, feel free to us this as a [template](https://github.com/kr40/svelte-playground/generate).
+`npm install` to install the required node modules.
+
+`npm run dev` to run dev server with live preview.
+
+`npm run build` to build for production.
+
+## **Check out [Svelte](https://svelte.dev/)** for more info.
+
+## Feel free to use this as a [template](https://github.com/kr40/svelte-playground/generate).
