@@ -14,4 +14,4 @@ This is a Svelte Playground to mess around in or to start a new project. It come
 
 ## **Check out [Svelte](https://svelte.dev/)** for more info.
 
-## Feel free to use this as a [template](https://github.com/kr40/svelte-playground/generate).
+### Feel free to use this as a [template](https://github.com/kr40/svelte-playground/generate).
