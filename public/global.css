@@ -1,3 +1,14 @@
+/** Set everything to border-box */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 /** Your global styles go here */
 
 @import url('https://fonts.googleapis.com/css?family=Overpass');
