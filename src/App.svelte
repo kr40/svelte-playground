@@ -1,22 +1,9 @@
 <script>
-	function toggleTheme() {
-		// Obtains an array of all <link> elements.
-		// Select your element using indexing.
-
-		const theme = document.getElementsByTagName('link')[2];
-
-		// Change the value of href attribute to change the css sheet.
-
-		if (theme.getAttribute('href') == 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css') {
-			theme.setAttribute('href', 'https://cdn.jsdelivr.net/npm/water.css@2/out/light.css');
-		} else {
-			theme.setAttribute('href', 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css');
-		}
-	}
+	import Toggle from './Toggle.svelte';
 </script>
 
 <main class="container">
-	<button on:click={toggleTheme}>Switch Theme</button>
+	<Toggle />
 	<h1><span><i class="fas fa-home" /></span>&nbsp;Svelte Playground</h1>
 	<p>
 		This is a svelte template which comes with <strong
