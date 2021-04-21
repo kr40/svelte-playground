@@ -1,6 +1,6 @@
 # Svelte Playground
 
-This is a Svelte Playground to mess around in or to start a new project. It comes with `normalize.css`, `water.css`, `font-awesome 5` & `stylelint`.
+This is a `svelte` playground to start a new project. It comes with `normalize.css`, `water.css`, `font-awesome 5` & `stylelint`.
 
 **Assumes `prettier` is already configured.**
 
@@ -10,6 +10,8 @@ This is a Svelte Playground to mess around in or to start a new project. It come
 
 **Note: Remove the existing stylesheet used for `water.css` which I used to make the theme switcher if you wish to use the automatic theme.**
 
+---
+
 ## Usage
 
 `npm install` to install the required node modules.
@@ -17,6 +19,8 @@ This is a Svelte Playground to mess around in or to start a new project. It come
 `npm run dev` to run dev server with live preview.
 
 `npm run build` to build for production.
+
+---
 
 ## **Check out [Svelte](https://svelte.dev/)** for more info.
 
