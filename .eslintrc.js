@@ -1,11 +1,12 @@
-/* eslint-disable no-undef */
 module.exports = {
-	extends: ['eslint:recommended', 'google', 'plugin:import/errors', 'prettier'],
 	env: {
 		browser: true,
+		node: true,
+		es2021: true,
 	},
+	extends: ['eslint:recommended', 'google', 'plugin:import/recommended', 'prettier'],
 	parserOptions: {
-		ecmaVersion: 2020,
+		ecmaVersion: 12,
 		sourceType: 'module',
 	},
 	plugins: ['svelte3', 'import'],
