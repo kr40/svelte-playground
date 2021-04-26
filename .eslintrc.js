@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 module.exports = {
-	extends: ['eslint:recommended', 'google', 'prettier'],
+	extends: ['eslint:recommended', 'google', 'plugin:import/errors', 'prettier'],
 	env: {
 		browser: true,
 	},
@@ -8,7 +8,7 @@ module.exports = {
 		ecmaVersion: 2020,
 		sourceType: 'module',
 	},
-	plugins: ['svelte3'],
+	plugins: ['svelte3', 'import'],
 	overrides: [
 		{
 			files: ['*.svelte'],
@@ -21,6 +21,7 @@ module.exports = {
 		},
 	],
 	rules: {
+		'require-jsdoc': 'off',
 		// 'no-use-before-define': ['error', 'nofunc'],
 		// 'import/prefer-default-export': 'off',
 	},
