@@ -7,7 +7,8 @@
 	<h1><span><i class="fas fa-home" /></span>&nbsp;Svelte Playground</h1>
 	<p>
 		This is a svelte template which comes with <strong
-			>normalize.css, water.css, font-awesome 5 & stylelint.</strong>
+			>normalize.css, water.css, font-awesome 5, stylelint & eslint</strong>
+		pre- configured.
 		<br /><br />
 
 		<strong>
