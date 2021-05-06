@@ -8,7 +8,7 @@
 	<p>
 		This is a svelte template which comes with <strong
 			>sanitize.css, water.css, font-awesome 5, stylelint & eslint</strong>
-		pre- configured.
+		pre-configured.
 		<br /><br />
 
 		<strong> <span><i class="fas fa-info-circle" /></span>&nbsp; Assumes Prettier is already configured.</strong>
