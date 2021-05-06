@@ -1,6 +1,6 @@
 # Svelte Playground
 
-This is a `svelte` playground to start a new project. It comes with `normalize.css`, `water.css`, `font-awesome 5`, `stylelint` & `eslint`.
+This is a `svelte` playground to start a new project. It comes with `sanitize.css`, `water.css`, `font-awesome 5`, `stylelint` & `eslint`.
 
 **Assumes `prettier` is already configured.**
 
