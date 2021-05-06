@@ -3,7 +3,7 @@
 		// Obtains an array of all <link> elements.
 		// Select your element using indexing.
 
-		const theme = document.getElementsByTagName('link')[2];
+		const theme = document.getElementsByTagName('link')[6];
 
 		// Change the value of href attribute to change the css sheet.
 
